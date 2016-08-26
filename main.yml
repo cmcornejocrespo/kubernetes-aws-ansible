@@ -3,4 +3,5 @@
   become: True
 
   roles:
-    - { role: docker }
+#    - { role: docker }
+    - { role: kubernetes , user: "ubuntu" }
